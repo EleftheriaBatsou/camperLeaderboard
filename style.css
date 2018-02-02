@@ -1,0 +1,67 @@
+body {
+  background-color: #D9DACD;
+  padding: 1em;
+  font-family: "Helvetica Neue";
+}
+
+.tableHeader {
+  background-color: #006400;
+  color: white;
+  font-size: 22px;
+  padding: 10px;
+}
+
+table {
+  width: 100%;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+.camper {
+  background-color: white;
+  text-align: center;
+}
+
+.name .profileImg {
+  width: 60px;
+  border: 1px solid #006400;
+  border-radius: 50%;
+}
+
+.profileImg:hover {
+  width: 70px;
+}
+
+.up {
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 10px solid black;
+  display: inline-block;
+}
+
+.down {
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 10px solid black;
+  display: inline-block;
+}
+
+.tableFooter {
+  background-color: #006400;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+.tableFooter a:link {
+  color: white;
+}
+.tableFooter a:hover {
+  color: #D9DACD;
+}
+
+.footerSvg {
+  width: 32px;
+}
